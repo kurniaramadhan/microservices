@@ -1,0 +1,11 @@
+accounts.msg = Welcome to the Dewacoding Accounts Default application
+accounts.build-version=3
+
+accounts.mailDetails.hostName=default-accounts@dewacoding.com
+accounts.mailDetails.port=9000
+accounts.mailDetails.from=default-accounts@dewacoding.com
+accounts.mailDetails.subject=Your Accounts Details from Dewacoding Default Environment
+
+accounts.activeBranches[0]=Mumbai
+accounts.activeBranches[1]=London
+accounts.activeBranches[2]=Washington

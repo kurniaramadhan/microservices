@@ -1,0 +1,5 @@
+package com.dewacoding.cardsservice.repository;
+
+public class CardsRepository {
+
+}

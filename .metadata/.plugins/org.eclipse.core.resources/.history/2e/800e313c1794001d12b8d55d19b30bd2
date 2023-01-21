@@ -1,0 +1,9 @@
+package com.dewacoding.accountsservice.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.dewacoding.accountsservice.model.Accounts;
+
+public interface AccountRepository extends JpaRepository<Accounts, Integer> {
+
+}

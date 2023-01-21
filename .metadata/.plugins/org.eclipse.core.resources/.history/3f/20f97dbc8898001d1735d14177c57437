@@ -1,0 +1,11 @@
+card.msg = Welcome to the Dewacoding Cards Default application
+card.build-version=3
+
+card.mailDetails.hostName=default-cards@dewacoding.com
+card.mailDetails.port=9000
+card.mailDetails.from=default-cards@dewacoding.com
+card.mailDetails.subject=Your Cards Details from Dewacoding Default Environment
+
+card.activeBranches[0]=Mumbai
+card.activeBranches[1]=London
+card.activeBranches[2]=Washington

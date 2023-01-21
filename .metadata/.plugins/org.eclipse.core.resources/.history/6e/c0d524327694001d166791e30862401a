@@ -1,0 +1,27 @@
+package com.dewacoding.loansservice.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.dewacoding.loansservice.model.Loans;
+import com.dewacoding.loansservice.repository.LoansRepository;
+
+@RestController
+public class LoansController {
+	
+	@Autowired
+	LoansRepository loansRepository;
+	
+	public List<Loans> getLoansDetails(@RequestBody Customer customer) {
+		List<Loans> loans = loansRepository.findByCustomerIdOrderByStartDateDesc(customer.getCustomerId());
+		
+		if (loans != null) {
+			return loans;
+		} else {
+			return null;
+		}
+	}
+}

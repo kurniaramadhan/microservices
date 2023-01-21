@@ -1,0 +1,11 @@
+accounts.msg = Welcome to the Dewacoding Loans Default application
+accounts.build-version=3
+
+accounts.mailDetails.hostName=default-loans@dewacoding.com
+accounts.mailDetails.port=9000
+accounts.mailDetails.from=default-loans@dewacoding.com
+accounts.mailDetails.subject=Your Loans Details from Dewacoding Default Environment
+
+accounts.activeBranches[0]=Mumbai
+accounts.activeBranches[1]=London
+accounts.activeBranches[2]=Washington

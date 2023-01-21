@@ -1,0 +1,11 @@
+package com.dewacoding.cardsservice.configs;
+
+import java.util.List;
+import java.util.Map;
+
+public class CardsServiceConfig {
+	private String msg;
+	private String buildVersion;
+	private Map<String, String> mailDetails;
+	private List<String> activeBranches;
+}

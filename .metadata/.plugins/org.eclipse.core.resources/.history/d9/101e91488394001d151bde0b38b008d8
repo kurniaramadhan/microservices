@@ -1,0 +1,5 @@
+package com.dewacoding.cardsservice.model;
+
+public class Customer {
+
+}

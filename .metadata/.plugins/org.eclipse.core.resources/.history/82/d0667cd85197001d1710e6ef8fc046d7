@@ -1,0 +1,5 @@
+package com.dewacoding.accountsservice.configs;
+
+public class AccountServiceConfig {
+
+}

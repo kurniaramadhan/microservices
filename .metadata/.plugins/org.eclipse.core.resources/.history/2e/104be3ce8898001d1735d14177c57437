@@ -1,0 +1,11 @@
+accounts.msg = Welcome to the Dewacoding Cards Dev application
+accounts.build-version=2
+
+accounts.mailDetails.hostName=dev-cards@dewacoding.com
+accounts.mailDetails.port=9020
+accounts.mailDetails.from=dev-cards@dewacoding.com
+accounts.mailDetails.subject=Your Cards Details from Dewacoding Dev Environment
+
+accounts.activeBranches[0]=Chennai
+accounts.activeBranches[1]=Berlin
+accounts.activeBranches[2]=Indianapolis

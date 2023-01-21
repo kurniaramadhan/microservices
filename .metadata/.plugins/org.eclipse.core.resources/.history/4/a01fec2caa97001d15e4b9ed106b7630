@@ -1,0 +1,5 @@
+package com.dewacoding.cardsservice.configs;
+
+public class CardsServiceConfig {
+
+}

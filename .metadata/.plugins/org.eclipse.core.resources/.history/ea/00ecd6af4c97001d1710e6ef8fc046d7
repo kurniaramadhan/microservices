@@ -1,0 +1,6 @@
+spring.application.name=configserver
+spring.profiles.active=native
+#spring.cloud.config.server.native.search-locations=classpath:/config
+#spring.cloud.config.server.native.search-locations=file:///C://config
+spring.cloud.config.server.native.search-locations=file:///D://04-Training//2022//Microservices//config
+server.port=8071

@@ -1,0 +1,5 @@
+package com.dewacoding.accountsservice.repository;
+
+public interface AccountsRepository {
+
+}

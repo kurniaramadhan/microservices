@@ -1,0 +1,21 @@
+package com.dewacoding.accountsservice.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.dewacoding.accountsservice.model.Accounts;
+import com.dewacoding.accountsservice.model.Customer;
+import com.dewacoding.accountsservice.repository.AccountsRepository;
+
+@RestController
+public class AccountsController {
+	
+	@Autowired
+	private AccountsRepository accountsRepository;
+	
+	public Accounts getAccountDetails(@RequestBody Customer customer) {
+		Accounts accounts = accountsRepository.findByCustomerId(customer.getCustomerId());
+	}
+
+}

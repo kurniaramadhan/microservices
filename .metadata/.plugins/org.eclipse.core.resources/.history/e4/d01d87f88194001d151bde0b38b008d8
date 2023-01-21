@@ -1,0 +1,13 @@
+package com.dewacoding.cardsservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CardsserviceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CardsserviceApplication.class, args);
+	}
+
+}

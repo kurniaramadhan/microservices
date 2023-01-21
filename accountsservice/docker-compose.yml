@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+
+  accountsservice:
+    image: dewacoding/accountsservice:latest
+    mem_limit: 700m
+    ports:
+      - "8080:8080"
+    networks:
+      - "dewacoding-network"
+
+  loansservice:
+    image: dewacoding/loansservice:latest
+    mem_limit: 700m
+    ports:
+      - "8090:8090"
+    networks:
+      - "dewacoding-network"
+
+  cardsservice:
+    image: dewacoding/cardsservice:latest
+    mem_limit: 700m
+    ports:
+      - "9000:9000"
+    networks:
+      - "dewacoding-network"
+
+networks:
+  dewacoding-network:
